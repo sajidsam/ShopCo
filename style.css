@@ -1,10 +1,18 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Fonts */
 .satoshi {
     font-family: 'Satoshi', sans-serif;
 }
 
-
-
+.integral-cf {
+    font-family: "Integral CF Regular";
+}
 
 
 
@@ -14,25 +22,106 @@
 .offer-bar {
     height: 38px;
     padding-inline: 100px;
-    font-weight: 400px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-
+    background-color: black;
+    color: white;
+    white-space: nowrap;
 }
-.offer-bar p,a{
+
+.offer-space {
+    display: block;
+}
+
+.offer-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 9px;
+    margin-bottom: 10px;
     font-size: 14px;
-
+    font-weight: 400;
 }
 
+.offer-text p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}
 
+.offer-text a {
+    color: white;
+    font-size: 14px;
+    text-decoration: underline;
+}
 
-
-
-
+.offer-close img {
+    height: 20px;
+    width: 20px;
+}
 
 
 
 
 /* Navbar */
+.nav-bar {
+    display: flex;
+    padding-inline: 100px;
+    padding-block: 24px;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-bar div:nth-of-type(1) {
+    display: none;
+}
+
+.nav-bar div:nth-of-type(2) p {
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+
+
+.search-bar {
+    width: 100%;
+    background: #F0F0F0;
+    border-radius: 67px;
+}
+
+.search-bar form {
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+
+.search-bar img {
+
+    padding: 12px;
+    padding-left: 16px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: inline-flex;
+    text-wrap: nowrap;
+    gap: 24px;
+}
+
+.nav-bar div:nth-of-type(5) {
+    display: flex;
+    gap: 14px;
+
+}
 
 
 
@@ -47,21 +136,68 @@
 
 
 
-
-
-
-
+/* Responsive */
 @media (max-width: 768px) {
+
+    /* Offer bar */
     .offer-bar {
-        align-items: center;
         justify-content: center;
         gap: 10px;
-        padding-inline: 0px;
+        padding-inline: 0;
     }
 
-    .offer-bar p,
-    .offer-bar a {
+    .offer-space,
+    .offer-close {
+        display: none;
+    }
+
+    .offer-text p,
+    .offer-text a {
         font-size: 12px;
     }
 
+    /* Navbar */
+    .nav-bar {
+        padding-inline: 16px;
+        padding-block: 0;
+        gap: 10px;
+    }
+
+    .nav-bar div:nth-of-type(1) {
+        display: block;
+    }
+
+    .nav-bar div:nth-of-type(2) p {
+        font-weight: 700;
+        font-size: 25.2px;
+        color: black;
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .search-bar {
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .search-bar input {
+        display: none;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
