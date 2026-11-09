@@ -1,0 +1,67 @@
+/* Fonts */
+.satoshi {
+    font-family: 'Satoshi', sans-serif;
+}
+
+
+
+
+
+
+
+
+/* Offer bar */
+.offer-bar {
+    height: 38px;
+    padding-inline: 100px;
+    font-weight: 400px;
+    justify-content: space-between;
+
+}
+.offer-bar p,a{
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Navbar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .offer-bar {
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding-inline: 0px;
+    }
+
+    .offer-bar p,
+    .offer-bar a {
+        font-size: 12px;
+    }
+
+}
