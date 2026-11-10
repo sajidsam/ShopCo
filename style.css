@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+
+
+
+
 /* Fonts */
 .satoshi {
     font-family: 'Satoshi', sans-serif;
@@ -64,13 +68,22 @@
 
 
 
+
+
+
+
+
 /* Navbar */
 .nav-bar {
+    background-color: white;
     display: flex;
     padding-inline: 100px;
     padding-block: 24px;
     align-items: center;
     gap: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .nav-bar div:nth-of-type(1) {
@@ -126,11 +139,63 @@
 
 
 
+.banner {
+    display: flex;
+    height: 663px;
+    padding-inline: 100px;
+    background-image: url(Icons/banner.svg);
+    justify-content: space-between;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.banner-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 103px;
+}
+
+.banner-text p {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
+.banner button {
+    width: 210px;
+    height: 52px;
+    border-radius: 62px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+.banner-counter ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    margin-bottom: 116px;
+}
 
 
+.starTwo {
+    position: absolute;
+    right: 81px;
+    top: 86px;
+}
 
+.starOne {
+    position: absolute;
+    right: 634px;
+    top: 297px;
+}
 
 
 
@@ -143,7 +208,7 @@
     .offer-bar {
         justify-content: center;
         gap: 10px;
-        padding-inline: 0;
+        padding-inline: 0px;
     }
 
     .offer-space,
@@ -186,18 +251,3 @@
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
