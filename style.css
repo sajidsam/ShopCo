@@ -201,6 +201,26 @@
 
 
 
+
+/* Ribon */
+.ribon{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 122px;
+    justify-content: space-around;
+    padding-inline: 100px;
+    text-wrap: no-wrap;
+
+}
+
+
+
+
+
+
+
+
 /* Responsive */
 @media (max-width: 768px) {
 
