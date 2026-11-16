@@ -5,22 +5,14 @@
     box-sizing: border-box;
 }
 
-
-
-
-
 /* Fonts */
 .satoshi {
     font-family: 'Satoshi', sans-serif;
 }
 
 .integral-cf {
-    font-family: "Integral CF Regular";
+    font-family: "Integral CF Regular", sans-serif;
 }
-
-
-
-
 
 /* Offer bar */
 .offer-bar {
@@ -73,6 +65,8 @@
 
 
 
+
+
 /* Navbar */
 .nav-bar {
     background-color: white;
@@ -96,7 +90,6 @@
     color: black;
 }
 
-
 .search-bar {
     width: 100%;
     background: #F0F0F0;
@@ -106,12 +99,9 @@
 .search-bar form {
     display: flex;
     flex-wrap: nowrap;
-
-
 }
 
 .search-bar img {
-
     padding: 12px;
     padding-left: 16px;
 }
@@ -120,7 +110,7 @@
     border: none;
     outline: none;
     background-color: transparent;
-
+    width: 100%;
 }
 
 .nav-bar ul {
@@ -133,38 +123,49 @@
 .nav-bar div:nth-of-type(5) {
     display: flex;
     gap: 14px;
-
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+/* Banner */
 .banner {
     display: flex;
-    height: 663px;
-    padding-inline: 100px;
-    background-image: url(Icons/banner.svg);
-    justify-content: space-between;
-    background-size: cover;
     position: relative;
-    overflow: hidden;
-    background-position: center;
+    background-color: #F2F0F1;
+    background-image: url(Icons/banner.svg);
+    background-size: cover;
+    background-position: bottom right;
     background-repeat: no-repeat;
-
+    padding-inline: 100px;
+    min-height: 663px;
+    overflow: hidden;
 }
 
 .banner-text h1 {
     font-size: 64px;
     font-weight: 700;
-    margin-top: 103px;
+    margin-top: 100px;
+    line-height: 1.05;
 }
 
 .banner-text p {
     margin-top: 32px;
     font-size: 16px;
     font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    max-width: 545px;
 }
-
 
 .banner button {
     width: 210px;
@@ -175,27 +176,48 @@
     border: none;
     margin-top: 32px;
     margin-bottom: 48px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 .banner-counter ul {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 32px;
-    margin-bottom: 116px;
+    margin-bottom: 80px;
 }
 
+.banner-counter li h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.banner-counter li p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.stars img {
+    position: absolute;
+}
 
 .starTwo {
-    position: absolute;
-    right: 81px;
-    top: 86px;
+    right: 5.6%;
+    top: 13%;
 }
 
 .starOne {
-    position: absolute;
-    right: 634px;
-    top: 297px;
+    right: 44%;
+    top: 45%;
 }
+
+
+
+
+
+
+
 
 
 
@@ -203,16 +225,70 @@
 
 
 /* Ribon */
-.ribon{
+.ribon {
     display: flex;
     align-items: center;
     background-color: black;
-    height: 122px;
+    min-height: 122px;
     justify-content: space-around;
     padding-inline: 100px;
-    text-wrap: no-wrap;
-
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* New Arrivals */
+.new-arrivals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.new-arrivals h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 55px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -222,13 +298,22 @@
 
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+    .banner {
+        padding-inline: 60px;
+    }
 
-    /* Offer bar */
+    .banner-text h1 {
+        font-size: 52px;
+    }
+}
+
+
+@media (max-width: 768px) {
     .offer-bar {
         justify-content: center;
         gap: 10px;
-        padding-inline: 0px;
+        padding-inline: 16px;
     }
 
     .offer-space,
@@ -241,10 +326,9 @@
         font-size: 12px;
     }
 
-    /* Navbar */
     .nav-bar {
         padding-inline: 16px;
-        padding-block: 0;
+        padding-block: 16px;
         gap: 10px;
     }
 
@@ -269,5 +353,61 @@
 
     .search-bar input {
         display: none;
+    }
+
+    .banner {
+        padding-inline: 16px;
+        background-position: bottom center;
+        background-size: cover;
+        min-height: 520px;
+    }
+
+    .banner-text h1 {
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 40px;
+    }
+
+    .banner-text p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .banner button {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    .banner-counter ul {
+        flex-wrap: wrap;
+        gap: 16px 24px;
+        margin-bottom: 40px;
+    }
+
+    .ribon {
+        padding-inline: 16px;
+        padding-block: 30px;
+        min-height: auto;
+    }
+
+
+    /* New Arrivals */
+    .new-arrivals h2 {
+        font-size: 32px;
+        padding-top: 52px;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .product-img{
+        display: flex;
+        justify-content: center;
+    }
+    .product-new{
+        width: 198px;
+        height: 200px;
     }
 }
