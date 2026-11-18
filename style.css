@@ -412,6 +412,23 @@
     margin-bottom: 0;
 }
 
+.dress-style-btn {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.explore-btn {
+    display: inline-block;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 62px;
+    padding: 16px 54px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .style-card {
     height: 289px;
     background-color: white;
@@ -875,6 +892,11 @@
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Detail Tabs */
@@ -1258,8 +1280,13 @@
     font-size: 15px;
 }
 
-.discount {
-    color: red;
+.summary-row .discount {
+    color: #FF3333;
+    background: #FF33331A;
+    padding: 3px 8px;
+    border-radius: 62px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .order-summary hr {
@@ -2110,6 +2137,15 @@
         font-size: 24px;
         top: 16px;
         left: 24px;
+    }
+
+    .dress-style-btn {
+        margin-top: 24px;
+    }
+
+    .explore-btn {
+        padding: 14px 40px;
+        font-size: 14px;
     }
 
     /* Happy Customers Mobile */
