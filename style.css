@@ -146,6 +146,12 @@
 .nav-bar div:nth-of-type(5) {
     display: flex;
     gap: 14px;
+    align-items: center;
+}
+
+.nav-bar div:nth-of-type(5) a {
+    display: flex;
+    align-items: center;
 }
 
 .search-mobile {
@@ -288,6 +294,10 @@
     width: 100%;
 }
 
+.product-image a {
+    display: block;
+}
+
 .product-image img {
     width: 100%;
     aspect-ratio: 295 / 298;
@@ -360,7 +370,14 @@
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    margin: 36px 0 40px;
+    margin: 36px 0 64px;
+}
+
+.section-divider {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #0000001A;
+    margin: 0;
 }
 
 
@@ -1236,9 +1253,6 @@
     margin-bottom: 15px;
 }
 
-.summary-row p {
-    color: #777;
-}
 
 .summary-row strong {
     font-size: 15px;
