@@ -88,12 +88,12 @@
             <!-- Gallery -->
             <div class="product-gallery">
                 <div class="gallery-thumbs">
-                    <img class="thumb active" src="Icons/green-shirt.svg" alt="Thumb 1">
-                    <img class="thumb" src="Icons/green-shirt.svg" alt="Thumb 2">
-                    <img class="thumb" src="Icons/green-shirt.svg" alt="Thumb 3">
+                    <img class="thumb active" src="Icons/olive-t-shirt.svg" alt="Thumb 1">
+                    <img class="thumb" src="Icons/olive-black.svg" alt="Thumb 2">
+                    <img class="thumb" src="Icons/olive-face.svg" alt="Thumb 3">
                 </div>
                 <div class="gallery-main">
-                    <img src="Icons/green-shirt.svg" alt="One Life Graphic T-shirt">
+                    <img src="Icons/olive-t-shirt.svg" alt="One Life Graphic T-shirt">
                 </div>
             </div>
 
@@ -444,7 +444,20 @@
 
     </footer>
 
+    <script>
+        const thumbs = document.querySelectorAll('.gallery-thumbs .thumb');
+        const mainImg = document.querySelector('.gallery-main img');
 
+        thumbs.forEach(thumb => {
+            thumb.addEventListener('click', () => {
+                thumbs.forEach(t => t.classList.remove('active'));
+                thumb.classList.add('active');
+                if (mainImg) {
+                    mainImg.src = thumb.src;
+                }
+            });
+        });
+    </script>
 
 </body>
 

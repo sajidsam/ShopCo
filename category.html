@@ -84,11 +84,17 @@
         <!-- Category Layout -->
         <div class="category-layout">
 
+            <!-- Mobile Filter Backdrop -->
+            <div class="filter-backdrop"></div>
+
             <!-- Sidebar Filters -->
             <div class="filters-sidebar">
                 <div class="filters-header">
                     <h3>Filters</h3>
-                    <img src="Icons/filter.svg" alt="Filter">
+                    <img class="desktop-filter-icon" src="Icons/filter.svg" alt="Filter">
+                    <button type="button" class="close-filter-btn" aria-label="Close Filter">
+                        <img src="Icons/close-btn.svg" alt="Close">
+                    </button>
                 </div>
 
                 <hr>
@@ -462,6 +468,31 @@
         </div>
 
     </footer>
+
+    <script>
+        const filterBtn = document.querySelector('.mobile-filter-btn');
+        const closeFilterBtn = document.querySelector('.close-filter-btn');
+        const filterBackdrop = document.querySelector('.filter-backdrop');
+        const filtersSidebar = document.querySelector('.filters-sidebar');
+        const applyFilterBtn = document.querySelector('.apply-filter-btn');
+
+        function openFilter() {
+            filtersSidebar.classList.add('active');
+            filterBackdrop.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeFilter() {
+            filtersSidebar.classList.remove('active');
+            filterBackdrop.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        if (filterBtn) filterBtn.addEventListener('click', openFilter);
+        if (closeFilterBtn) closeFilterBtn.addEventListener('click', closeFilter);
+        if (filterBackdrop) filterBackdrop.addEventListener('click', closeFilter);
+        if (applyFilterBtn) applyFilterBtn.addEventListener('click', closeFilter);
+    </script>
 
 </body>
 
