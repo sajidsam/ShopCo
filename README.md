@@ -1,27 +1,79 @@
 # 🛍️ SHOP.CO — E-Commerce Fashion Web Application
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Responsive Design](<https://img.shields.io/badge/Responsive-Mobile%20%7C%20Tablet%20%7C%20Desktop%20%7C%20UltraWide-success?style=for-the-badge>)](#-responsive-design)
-
+<p align="left">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" /></a>
+  <a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" /></a>
+  <a href="https://code.visualstudio.com/"><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" /></a>
+</p>
 
 **SHOP.CO** is a modern, responsive, pixel-perfect e-commerce fashion web application built from Figma design specifications. It provides a complete online shopping experience including a dynamic homepage, an advanced product category filtering catalog, an interactive product detail showcase, and a full-featured shopping cart with order summary calculations.
 
 ---
 
+## 📱 Fully Responsive Across All Devices
+
+> Perfectly crafted and optimized for all screen sizes — ensuring no elements are cropped, squeezed, or misplaced.
+
+### 💻 Desktop / Laptop (MacBook Air)
+<p align="center">
+  <a href="Readme-Images/Macbook-Air-127.0.0.1.png">
+    <img src="Readme-Images/Macbook-Air-127.0.0.1.png" alt="Desktop - MacBook Air" width="100%">
+  </a>
+</p>
+
+### 📱 Tablet & Mobile Previews
+
+<table>
+  <tr>
+    <th align="center" width="46%">📱 Tablet / Foldable (Galaxy Fold 2)</th>
+    <th align="center" width="27%">📱 Modern Mobile (iPhone 14 Pro)</th>
+    <th align="center" width="27%">📱 Compact Mobile (iPhone SE)</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <a href="Readme-Images/Galaxy-Fold2-127.0.0.1.png">
+        <img src="Readme-Images/Galaxy-Fold2-127.0.0.1.png" alt="Tablet - Galaxy Fold 2" width="100%">
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="Readme-Images/iPhone-14-PRO-127.0.0.1.png">
+        <img src="Readme-Images/iPhone-14-PRO-127.0.0.1.png" alt="Mobile - iPhone 14 Pro" width="100%">
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="Readme-Images/iPhone-SE-2016-127.0.0.1.png">
+        <img src="Readme-Images/iPhone-SE-2016-127.0.0.1.png" alt="Mobile - iPhone SE" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 📑 Table of Contents
 
+<details>
+<summary><b>Click to expand / collapse</b></summary>
+<br>
+
+- [📱 Fully Responsive Across All Devices](#-fully-responsive-across-all-devices)
 - [✨ Key Features](#-key-features)
-- [📸 Screenshots &amp; Page Previews](#-screenshots--page-previews)
+- [📸 Screenshots & Page Previews](#-screenshots--page-previews)
   - [1. Home Page](#1-home-page)
   - [2. Product Categories Page](#2-product-categories-page)
   - [3. Product Details Page](#3-product-details-page)
   - [4. Shopping Cart Page](#4-shopping-cart-page)
-- [💻 Tech Stack &amp; Tools](#-tech-stack--tools)
-- [📁 Folder &amp; Project Structure](#-folder--project-structure)
-- [📱 Responsive Design &amp; Breakpoints](#-responsive-design--breakpoints)
+- [💻 Tech Stack & Tools](#-tech-stack--tools)
+- [📁 Folder & Project Structure](#-folder--project-structure)
+- [📱 Responsive Design & Breakpoints](#-responsive-design--breakpoints)
 - [🚀 Getting Started](#-getting-started)
-- [🎨 Design Highlights &amp; Micro-interactions](#-design-highlights--micro-interactions)
+- [🎨 Design Highlights & Micro-interactions](#-design-highlights--micro-interactions)
+- [👨‍💻 Author](#-author)
+- [📄 License](#-license)
+
+</details>
 
 ---
 
@@ -45,7 +97,9 @@
 
 > Comprehensive storefront showcasing current promotional banners, top brands, new arrivals, trending styles, and verified customer testimonials.
 
-![SHOP.CO Homepage](Readme-Images/homePage.png)
+<a href="Readme-Images/homePage.png">
+  <img src="Readme-Images/homePage.png" alt="SHOP.CO Homepage" width="100%">
+</a>
 
 **Highlights:**
 
@@ -64,7 +118,9 @@
 
 > Feature-rich product catalog with comprehensive filtering options and product grid navigation.
 
-![Product Categories Catalog](Readme-Images/product-categories.png)
+<a href="Readme-Images/product-categories.png">
+  <img src="Readme-Images/product-categories.png" alt="Product Categories Catalog" width="100%">
+</a>
 
 **Highlights:**
 
@@ -83,7 +139,9 @@
 
 > Dedicated single product showcase with multi-angle image gallery, variation selections, and customer reviews.
 
-![Product Details Page](Readme-Images/product-details.png)
+<a href="Readme-Images/product-details.png">
+  <img src="Readme-Images/product-details.png" alt="Product Details Page" width="100%">
+</a>
 
 **Highlights:**
 
@@ -102,7 +160,9 @@
 
 > Clean checkout preparation area with order breakdown and voucher redemption.
 
-![Shopping Cart Page](Readme-Images/product-cart.png)
+<a href="Readme-Images/product-cart.png">
+  <img src="Readme-Images/product-cart.png" alt="Shopping Cart Page" width="100%">
+</a>
 
 **Highlights:**
 
@@ -123,7 +183,7 @@
   - **Integral CF** (Headings & Brand Identity)
   - **Satoshi** (Body Copy, Navigation, and Pricing)
 - **Icons & Graphics:** Clean Scalable Vector Graphics (SVG) for crisp rendering on high-DPI displays
-- **Tools:** Visual Studio Code, Git, Figma
+- **Tools & Deployment:** Visual Studio Code, Git, GitHub, Vercel, Figma
 
 ---
 
@@ -143,19 +203,25 @@ ShopCo/
 │   ├── arrow-down.svg
 │   ├── arrow-left.svg
 │   ├── arrow-right.svg
+│   ├── banner-mobile.svg
 │   ├── banner.svg
 │   ├── cart.svg
 │   ├── check.svg
+│   ├── close-btn.svg
 │   ├── delete.svg
 │   ├── filter.svg
 │   ├── star-4-5.svg
 │   └── ... (additional UI icons)
 │
-├── Readme-Images/             # High-resolution screenshots for documentation
-│   ├── homePage.png
-│   ├── product-categories.png
-│   ├── product-details.png
-│   └── product-cart.png
+├── Readme-Images/             # Device mockups & high-resolution page previews
+│   ├── Macbook-Air-127.0.0.1.png       # Desktop view (1280px+)
+│   ├── Galaxy-Fold2-127.0.0.1.png      # Tablet / Foldable view
+│   ├── iPhone-14-PRO-127.0.0.1.png     # Modern Mobile view
+│   ├── iPhone-SE-2016-127.0.0.1.png    # Compact Mobile view
+│   ├── homePage.png                    # Full Homepage capture
+│   ├── product-categories.png          # Product Catalog capture
+│   ├── product-details.png             # Product Details capture
+│   └── product-cart.png                # Shopping Cart capture
 │
 └── README.md                  # Project documentation
 ```
@@ -166,12 +232,13 @@ ShopCo/
 
 The application utilizes fluid layout techniques combined with targeted media queries to guarantee an optimal user experience across all screen dimensions:
 
-| Breakpoint                       | Target Devices                     | Key Adaptations                                                                                         |
-| :------------------------------- | :--------------------------------- | :------------------------------------------------------------------------------------------------------ |
-| **`≥ 1600px / 1920px`** | Ultra-Wide & Full HD Monitors      | Scaled hero typography (`78px`), enhanced spacing, consistent container alignment                     |
-| **`992px – 1599px`**    | Standard Desktops & Laptops        | 4-column product grids, split hero layout, side-by-side catalog filter sidebar                          |
-| **`769px – 991px`**     | Tablets & Small Laptops            | 2-column to 3-column product flow, stacked hero elements                                                |
-| **`≤ 768px`**           | Mobile Phones (Portrait/Landscape) | Single-column stack, mobile hamburger menu, collapsible search, stacked style cards, full-width buttons |
+| Breakpoint | Target Devices | Tested Device Previews | Key Adaptations |
+| :--- | :--- | :--- | :--- |
+| **`≥ 1400px`** | Ultra-Wide & Large Desktop | Full HD & 2K Monitors | Scaled hero typography (`78px`), expanded container spacing (`100px`) |
+| **`≥ 992px – < 1200px`** | Standard Desktops & Laptops | **MacBook Air** | 4-column product grids, split hero layout, side-by-side catalog filter sidebar |
+| **`≥ 768px – < 992px`** | Tablets & Foldables | **Galaxy Fold 2** | 2-to-3 column product flow, right-bottom mobile banner placement, compact navbar |
+| **`≥ 576px – < 768px`** | Large Phones & Small Tablets | Phablets / Landscape Mobile | Single-column stack, bottom-sheet mobile filter modal, full-width actions |
+| **`< 576px`** | Compact Mobile Phones | **iPhone 14 Pro / iPhone SE** | Scaled headers, grid counter, mobile-optimized search, swipeable reviews |
 
 ---
 
@@ -182,13 +249,15 @@ Follow these steps to run the project locally on your machine:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/ShopCo.git
+   git clone https://github.com/sajidsam/ShopCo.git
    ```
+
 2. **Navigate to the Project Directory:**
 
    ```bash
    cd ShopCo
    ```
+
 3. **Open in Browser:**
 
    - Simply double-click `index.html` to open it in your default web browser, or
@@ -201,7 +270,16 @@ Follow these steps to run the project locally on your machine:
 - **Image Zoom on Hover:** Product cards smoothly zoom (`scale(1.08)`) with a `0.4s ease` transition while remaining cleanly clipped within their `20px` border-radius containers.
 - **Accented Discount Badges:** Standardized `#FF33331A` semi-transparent background shading with high-contrast `#FF3333` typography for discount indicators.
 - **Custom Dual-Slider:** Native range inputs with custom track and thumb styling matching the brand aesthetic without external library bloat.
+- **Mobile Filter Modal:** Touch-friendly bottom-sheet filter modal on mobile with backdrop overlay and quick-close trigger.
 - **Smooth Inter-Page Links:** Direct links connect product cards to [detail.html](detail.html), cart icons to [cart.html](cart.html), explore buttons to [category.html](category.html), and brand logos to [index.html](index.html).
+
+---
+
+## 👨‍💻 Author
+
+**Sajidul Islam**
+- **GitHub:** [@sajidsam](https://github.com/sajidsam)
+- **Email:** [isajidul174@gmail.com](mailto:isajidul174@gmail.com)
 
 ---
 
@@ -212,5 +290,5 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Crafted with ❤️ for modern e-commerce web experiences.
+  Crafted with ❤️ by <b>Sajidul Islam</b> for modern e-commerce web experiences.
 </p>
